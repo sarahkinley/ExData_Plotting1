@@ -1,0 +1,16 @@
+Course Project 1 Reproducible Research
+=====================================
+Setting Global Options for peer review
+
+```{r set options, echo=TRUE}
+opts_chunk$set(echo=TRUE,results="hide")
+```
+
+Load dataset
+
+```{r}
+## Confirm working directory
+getwd()
+## Read in activity file
+activity <- read.csv("activity.csv")
+```
